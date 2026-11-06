@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo & Build artifacts
+.expo/
+dist/
+web-build/
+
+# Native build keys and credentials
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Binary packages & APK archives (large files)
+*.apks
+*.apk
+*.aab
+jewel_dump/
+
+# Logs & OS artifacts
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.DS_Store
+Thumbs.db
